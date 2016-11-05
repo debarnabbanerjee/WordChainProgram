@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <suite name="My TestNG suite" parallel="methods">  -->
+<suite name="Word Chain Task" >
+
+<test name="Word Chain"> 
+    <classes>
+      <class name ="com.debarnab.test.testClass"/>      
+    </classes>
+</test>
+ 
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Word Chain Task]">
+  <test name="Word Chain(failed)">
+    <classes>
+      <class name="com.debarnab.test.testClass">
+        <methods>
+          <include name="loadDictionary"/>
+          <include name="testGetChain" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.debarnab.test.testClass -->
+    </classes>
+  </test> <!-- Word Chain(failed) -->
+</suite> <!-- Failed suite [Word Chain Task] -->
