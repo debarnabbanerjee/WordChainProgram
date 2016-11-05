@@ -14,15 +14,15 @@ public class testClass {
 	
 	@BeforeTest
 	public void loadDictionary(){
-		// load the dictionary in the beginning of the class
-		//dic = wordChainPuzzule.loadDict();
+		// load the dictionary in the beginning of the class		
 		dic = com.debarnab.main.loadDictionary.loadDict();
+		
 	}
 	
 		
     @Test(dataProvider="getData")	
     public void testGetChain(String from,String to) {  	
-            
+    	
     	wordChainPuzzule myTest = new wordChainPuzzule(dic);		
         String[] words =  myTest.getChain( from, to );      
         if(words.length<=0){
