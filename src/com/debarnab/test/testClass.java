@@ -17,8 +17,7 @@ public class testClass {
 		// load the dictionary in the beginning of the class		
 		dic = com.debarnab.main.loadDictionary.loadDict();
 		
-	}
-	
+	}	
 		
     @Test(dataProvider="getData")	
     public void testGetChain(String from,String to) {  	

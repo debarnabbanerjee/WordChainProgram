@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class wordChainPuzzule  {
 	private String [] dict;
-	private int depth = 10;   // maximum range of word chain is 10
+	private int noOfElementsInStack = 10;   
 
 	public wordChainPuzzule(String[] dict) {
 		this.dict = dict;
@@ -14,7 +14,7 @@ public class wordChainPuzzule  {
 		// check that from and to exists
 		if ( ! ( wordPresentInDictionary(from) && wordPresentInDictionary(to) ) ) 
 			return new String[0];
-		for ( int i=0; i < depth; i++ ) {
+		for ( int i=0; i < noOfElementsInStack; i++ ) {
 			Stack<String> stack = new Stack<>();
 			
 			findElements( from, to, stack, i );
@@ -44,7 +44,8 @@ public class wordChainPuzzule  {
 	private int differeceofLettersBetweenWords( String a, String b ) {
 		int dif = 0;
 		for ( int i=0; i< a.length(); i++ ) {
-			if ( a.charAt(i) != b.charAt(i) ) dif++;
+			if ( a.charAt(i) != b.charAt(i) ) 
+				dif++;
 		}
 		return dif;
 	}

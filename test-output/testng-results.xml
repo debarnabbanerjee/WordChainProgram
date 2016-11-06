@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Word Chain Task" duration-ms="16617" started-at="2016-11-05T11:57:45Z" finished-at="2016-11-05T11:58:02Z">
+  <suite name="Default suite" duration-ms="14540" started-at="2016-11-06T08:28:16Z" finished-at="2016-11-06T08:28:30Z">
     <groups>
     </groups>
-    <test name="Word Chain" duration-ms="16617" started-at="2016-11-05T11:57:45Z" finished-at="2016-11-05T11:58:02Z">
+    <test name="Default test" duration-ms="14540" started-at="2016-11-06T08:28:16Z" finished-at="2016-11-06T08:28:30Z">
       <class name="com.debarnab.test.testClass">
-        <test-method status="PASS" signature="loadDictionary()[pri:0, instance:com.debarnab.test.testClass@2bcfcb]" name="loadDictionary" is-config="true" duration-ms="121" started-at="2016-11-05T12:57:45Z" finished-at="2016-11-05T12:57:45Z">
+        <test-method status="PASS" signature="loadDictionary()[pri:0, instance:com.debarnab.test.testClass@fbd816]" name="loadDictionary" is-config="true" duration-ms="120" started-at="2016-11-06T09:28:16Z" finished-at="2016-11-06T09:28:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadDictionary -->
-        <test-method status="PASS" signature="testGetChain(java.lang.String, java.lang.String)[pri:0, instance:com.debarnab.test.testClass@2bcfcb]" name="testGetChain" duration-ms="8067" started-at="2016-11-05T12:57:45Z" data-provider="getData" finished-at="2016-11-05T12:57:54Z">
+        <test-method status="PASS" signature="testGetChain(java.lang.String, java.lang.String)[pri:0, instance:com.debarnab.test.testClass@fbd816]" name="testGetChain" duration-ms="7552" started-at="2016-11-06T09:28:16Z" data-provider="getData" finished-at="2016-11-06T09:28:23Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetChain -->
-        <test-method status="FAIL" signature="testGetChain(java.lang.String, java.lang.String)[pri:0, instance:com.debarnab.test.testClass@2bcfcb]" name="testGetChain" duration-ms="26" started-at="2016-11-05T12:57:54Z" data-provider="getData" finished-at="2016-11-05T12:57:54Z">
+        <test-method status="FAIL" signature="testGetChain(java.lang.String, java.lang.String)[pri:0, instance:com.debarnab.test.testClass@fbd816]" name="testGetChain" duration-ms="26" started-at="2016-11-06T09:28:23Z" data-provider="getData" finished-at="2016-11-06T09:28:23Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetChain -->
-        <test-method status="PASS" signature="testGetChain(java.lang.String, java.lang.String)[pri:0, instance:com.debarnab.test.testClass@2bcfcb]" name="testGetChain" duration-ms="8132" started-at="2016-11-05T12:57:54Z" data-provider="getData" finished-at="2016-11-05T12:58:02Z">
+        <test-method status="PASS" signature="testGetChain(java.lang.String, java.lang.String)[pri:0, instance:com.debarnab.test.testClass@fbd816]" name="testGetChain" duration-ms="6791" started-at="2016-11-06T09:28:23Z" data-provider="getData" finished-at="2016-11-06T09:28:30Z">
           <params>
             <param index="0">
               <value>
@@ -96,6 +96,6 @@
           </reporter-output>
         </test-method> <!-- testGetChain -->
       </class> <!-- com.debarnab.test.testClass -->
-    </test> <!-- Word Chain -->
-  </suite> <!-- Word Chain Task -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
